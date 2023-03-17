@@ -2,6 +2,14 @@
   "extends": "./tsconfig.options.json",
   "files": [],
   "references": [
-    { "path": "./packages/serverless-configuration/tsconfig.build.json" }
+    {
+      "path": "./packages/serverless-configuration/tsconfig.build.json"
+    },
+    {
+      "path": "./packages/json-schema-to-ts-test/tsconfig.build.json"
+    },
+    {
+      "path": "./packages/zod-test/tsconfig.build.json"
+    }
   ]
 }

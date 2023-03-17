@@ -64,6 +64,14 @@
     {
       "path": "packages/serverless-configuration",
       "name": "serverless configuration [library]"
+    },
+    {
+      "path": "packages/json-schema-to-ts-test",
+      "name": "json schema to ts test [library]"
+    },
+    {
+      "path": "packages/zod-test",
+      "name": "zod test [library]"
     }
   ]
 }
