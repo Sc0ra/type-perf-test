@@ -31,7 +31,7 @@ const commontEventSchemaProperties = {
   GSI1_SK: z.string().optional(),
 };
 
-export const schema = z.union([
+export const zodSchema = z.union([
   z
     .object({
       eventType: z.literal('CONTRACT_CREATED'),

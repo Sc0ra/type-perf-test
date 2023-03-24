@@ -5,7 +5,7 @@ import { zodSchema } from '@type-perf-test/schemas';
 
 type Schema = z.infer<typeof zodSchema>;
 
-type Check = A.Extends<'CONTRACT_CREATED', Schema['eventType']>;
+type Check = A.Extends<'SUBSCRIPTION_DELETED', Schema['eventType']>;
 
 const check: Check = 1;
 check;

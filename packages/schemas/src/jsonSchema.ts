@@ -1,5 +1,5 @@
 /* eslint-disable max-lines */
-export const schema = {
+export const jsonSchema = {
   type: 'object',
   oneOf: [
     {
